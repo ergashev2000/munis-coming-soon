@@ -895,7 +895,7 @@ a:hover {
     gap: 20px;
     max-width: 400px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 .send_msg button{
