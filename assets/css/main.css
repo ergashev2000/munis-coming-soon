@@ -894,6 +894,7 @@ a:hover {
     flex-direction: column;
     gap: 20px;
     max-width: 400px;
+    margin: 0 auto;
 }
 
 .send_msg button{
