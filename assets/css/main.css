@@ -887,3 +887,37 @@ a:hover {
         top: 0;
     }
 }
+
+
+.send_msg{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.send_msg button{
+    outline: none;
+    border: 0;
+    padding: 10px 20px;
+     border-radius: 10px;
+     background-color: #fff;
+     color: #000;
+     font-size: 20px;
+     border: 1px solid #fff;
+}
+
+.send_msg button:active{
+    background: #000;
+    color: #fff;
+}
+
+.send_msg textarea{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    resize: vertical;
+}
+
+.send_msg textarea::placeholder{
+    color: #fff!important;
+}
