@@ -921,6 +921,10 @@ a:hover {
     resize: vertical;
 }
 
+.msg_text{
+    font-size: 23px;
+}
+
 .send_msg textarea::placeholder{
     color: #fff!important;
 }
