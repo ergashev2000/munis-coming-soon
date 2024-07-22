@@ -78,7 +78,7 @@
                             chat_id: chatId,
                             text: message,
                         }),
-                    })
+                    })  
                         .then(response => response.json())
                         .then(data => console.log("Message sent to Telegram bot:", data))
                         .catch(error =>
